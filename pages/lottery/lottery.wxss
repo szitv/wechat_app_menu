@@ -1,0 +1,16 @@
+.portrait {
+  width:60vh;
+  text-align: center;
+}
+
+.portrait image {
+  width:108px;
+  height:108px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+view {
+  margin-top: 40px;
+  text-align: center;
+}

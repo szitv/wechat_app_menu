@@ -1,0 +1,85 @@
+/**index.wxss**/
+.menu { 
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  border-bottom: 1px #F7F7F7 solid;
+}
+
+.section-top {
+  height: 15vh;
+  font-size:12px;
+  color:#ffffff;
+  background-color: #fe0000;
+  line-height: 50px;
+}
+
+.section-top .address {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -85px;
+}
+
+.section-top .tel {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -55px;
+}
+
+.section-top image {
+  height:50px;
+  width:50px;
+  border-radius: 5px;
+  margin-left: 22px;
+  margin-top:4vh;
+}
+
+.section-left {
+  position: absolute;
+  font-size: 12px;
+  color: #9c9c9c;
+  background: #F7F7F7;
+  width: 15vh;
+  height: 85vh;
+  border-right: 1px #F7F7F7 solid;
+}
+
+.section-right {
+  position: absolute;
+  width: 40vh;
+  height:85vh;
+  margin-left:120px;
+}
+
+.product_list {
+  margin-bottom:10px;
+  margin-top: 20px;
+  line-height: 60px;
+  border-bottom: 1px #F7F7F7 solid;
+}
+
+label {
+  margin-left:10px;
+}
+
+.title {
+  position: absolute;
+  font-size: 14px;
+  line-height: 20px;
+  width:120px;
+}
+
+.money {
+  font-size: 20px;
+}
+
+.section-right image {
+  width:108px;
+  height:108px;
+  border-radius: 5px;
+}
+
+.active {
+  width: 100%;
+  background: #ffffff;
+}

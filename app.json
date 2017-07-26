@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/logs/logs",
+    "pages/lottery/lottery"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "蝶宴",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,13 @@
+<view class="portrait">
+  <image src="{{ userInfo.avatarUrl }}"></image>
+</view>
+<view class="nickname">
+  <span>您好，{{ userInfo.nickName }}：</span>
+</view>
+<view class="information" style="{{ lottery_status }}">
+  <text>我是蝶宴君，现特意为您准备一张小卡券\r\n此时应该已经自动发放至您的微信卡包了\r\n再次感谢您对我们的支持！</text>
+  <text style="color:red">\r\n\r\n每位用户限领1张\r\n当前剩余{{ balance }}张，送完即止噢</text>
+</view>
+<view class="lottery-over" style="{{ lottery_over_status }}">
+  <text>当日卡券已发放完毕，感谢支持么么哒</text>
+</view>

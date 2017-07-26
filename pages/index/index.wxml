@@ -1,0 +1,22 @@
+<view class="section-top">
+  <image bindlongtap="showLottery" bindtap="showLottery" src="{{ logo }}"></image>
+  <view class="address" bindtap="showLocation" bindlongtap="showLocation">酒楼地址：{{ address }}</view>
+  <view class="tel" bindtap="call" data-phone="{{ tel }}" bindlongtap="call">订餐热线：{{ tel }}</view>
+</view>
+<view class="section-left">
+  <scroll-view scroll-y style="height:85vh">
+    <view class="menu {{ id == menu.id ? 'active' : '' }}" wx:for="{{array}}" wx:for-item="menu" bindtap="select" data-id="{{ menu.id }}">
+      <label>{{ menu.name }}</label>
+    </view> 
+  </scroll-view>
+</view>
+
+<view class="section-right">
+  <scroll-view scroll-y style="height:85vh">
+    <view class="product_list" wx:for="{{product_list}}" wx:for-item="product_list" bindtap="showDetail" data-pid="{{ product_list.pid }}" data-title="{{ product_list.name }}">
+      <image mode="scaleToFill" src="{{ product_list.thumb }}"></image>
+      <label class="title">{{ product_list.name }}</label>
+      <label class="money">￥{{ product_list.money }}</label>
+    </view>
+  </scroll-view>
+</view>
